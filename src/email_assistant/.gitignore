@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Gmail / OAuth Secrets (CRITICAL)
+# =========================
+**/.secrets/
+**/secrets.json
+**/token.json
+credentials.json
+client_secret*.json
+
+# =========================
+# LangGraph / Runtime State
+# =========================
+.langgraph_api/
+**/.langgraph_api/
+
+# =========================
+# Logs / Outputs
+# =========================
+*.log
+logs/
+outputs/
+tmp/
+data/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Notebooks (optional)
+# =========================
+notebooks/.ipynb_checkpoints/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
