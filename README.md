@@ -101,7 +101,6 @@ LANGSMITH_PROJECT="Email Tool Calling and Response Evaluation"
 EMAIL_ADDRESS=your_email@gmail.com
 ```
 
-Never commit `.env`, `.secrets/token.json`, or any OAuth client secrets.
 
 ---
 
@@ -120,12 +119,6 @@ source .venv/bin/activate
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt` yet, the essentials are:
-
-```bash
 pip install langgraph langgraph-cli langgraph-sdk python-dotenv google-api-python-client google-auth google-auth-oauthlib html2text
 ```
 
@@ -136,7 +129,7 @@ pip install langgraph langgraph-cli langgraph-sdk python-dotenv google-api-pytho
 1) Start LangGraph dev server (run from repo root):
 
 ```bash
-langgraph dev --port 2024
+langgraph dev
 ```
 
 If your repo uses a config file, ensure `langgraph.json` exists at root or pass `--config`.
